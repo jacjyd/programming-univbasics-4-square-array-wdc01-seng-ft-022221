@@ -3,7 +3,8 @@ require 'pry'
 
 
 def square_array(array)
- 
+ squares=[]
+ array.length.times 
 end
 
 #def square_array(array)
