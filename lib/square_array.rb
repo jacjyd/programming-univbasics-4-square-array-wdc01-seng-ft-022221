@@ -4,7 +4,7 @@ require 'pry'
 
 def square_array(array)
  squares = []
- counter = 0 
+ counter = 2  
   while array[counter] do
     squares << array[counter]**2 
     binding.pry
