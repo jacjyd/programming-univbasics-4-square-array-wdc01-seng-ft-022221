@@ -5,7 +5,9 @@ require 'pry'
 def square_array(array)
  squares=[]
  array.length.times do |n|
-   squares << array[n]**2
+   squares << array[n]**2 
+ end
+ squares
 end
 
 #def square_array(array)
